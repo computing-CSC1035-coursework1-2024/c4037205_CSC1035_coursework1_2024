@@ -11,6 +11,10 @@ public class Reporting {
         manufacturers.add(manufacturer);
     }
 
+    public ArrayList<Manufacturer> getManufacturers() {
+        return manufacturers;
+    }
+
     public CarModel getMostExpensiveCarModel() {
         CarModel mostExpensive = null;
         for (Manufacturer manufacturer : manufacturers) {

@@ -13,6 +13,10 @@ public class Manufacturer {
         return name;
     }
 
+    public ArrayList<CarModel> getCarModels() {
+        return carModels;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
