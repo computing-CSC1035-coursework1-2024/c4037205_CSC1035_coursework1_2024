@@ -146,7 +146,7 @@ public class ReportingIO {
     /**
      * Lists all the car models of a given manufacturer.
      *
-     * @param manufacturerName The name of the manufacturer whose car models need to be listed
+     * @param  manufacturerName The name of the manufacturer whose car models need to be listed
      */
     private void listCarModelsByManufacturer() {
         System.out.print("Enter manufacturer name: ");
